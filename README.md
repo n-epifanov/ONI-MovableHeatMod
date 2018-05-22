@@ -8,11 +8,16 @@ you could also dump excess heat into Steam Turbine.
 
 ![Conditioner under Turbine](https://github.com/nicktime/ONI-MovableHeatMod/raw/master/doc/conditioner_under_turbine.png "Conditioner under Turbine")
 
+You can enable and disable the mod without any problem: all affected buildings (built/planned/etc) will change their properties as expected.
+
 Installation
 ------------
 * Install ModLoader https://github.com/javisar/ONI-Modloader/#installation
 * Put [MovableHeatMod.dll](https://github.com/nicktime/ONI-MovableHeatMod/releases/latest) into `Mods` dir
 
+Removing
+--------
+Just remove `MovableHeatMod.dll` from `Mods` dir.
 
 Building
 --------
