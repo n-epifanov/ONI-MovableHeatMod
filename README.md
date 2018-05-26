@@ -1,6 +1,6 @@
 # ONI-MovableHeatMod
 Mod for Oxygen not Included.
-It sets Overheat Temperature to 1000 C for all pumps, heaters and coolers (all Liquid and Gas pumps, Space Heater, Liquid Tepidizer, Thermo Regulator and Thermo Aquatuner).
+It sets heat damage to start at to 1000 C for all pumps and coolers (all Liquid and Gas pumps, Thermo Regulator and Thermo Aquatuner). For heaters (Space Heater and Liquid Tepidizer) shutdown is at 1000 C, heat damage starts at 1200 C.
 This allows to move heat at a wider range of temperatures.
 
 If you have [EasySteamTurbineMod](https://github.com/nicktime/ONI-EasySteamTurbineMod) installed
