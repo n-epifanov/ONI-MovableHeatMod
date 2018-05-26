@@ -1,6 +1,6 @@
 # ONI-MovableHeatMod
 Mod for Oxygen not Included.
-It sets Overheat Temperature to 1000 C for all Liquid and Gas pumps, Thermo Regulator and Thermo Aquatuner.
+It sets Overheat Temperature to 1000 C for all pumps, heaters and coolers (all Liquid and Gas pumps, Space Heater, Liquid Tepidizer, Thermo Regulator and Thermo Aquatuner).
 This allows to move heat at a wider range of temperatures.
 
 If you have [EasySteamTurbineMod](https://github.com/nicktime/ONI-EasySteamTurbineMod) installed
