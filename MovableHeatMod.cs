@@ -47,6 +47,24 @@ namespace Patches
             }
         }
 
+        [HarmonyPatch(typeof(SpaceHeaterConfig), nameof(SpaceHeaterConfig.CreateBuildingDef))]
+        public static class SpaceHeaterConfigPatch
+        {
+            public static void Postfix([NotNull] ref BuildingDef __result)
+            {
+                __result.OverheatTemperature = OVERHEAT_TEMP;
+            }
+        }
+
+        [HarmonyPatch(typeof(LiquidHeaterConfig), nameof(LiquidHeaterConfig.CreateBuildingDef))]
+        public static class LiquidHeaterConfigPatch
+        {
+            public static void Postfix([NotNull] ref BuildingDef __result)
+            {
+                __result.OverheatTemperature = OVERHEAT_TEMP;
+            }
+        }
+
         [HarmonyPatch(typeof(AirConditionerConfig), nameof(AirConditionerConfig.CreateBuildingDef))]
         public static class AirConditionerConfigPatch
         {
